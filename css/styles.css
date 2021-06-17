@@ -1,32 +1,38 @@
+body {
+  font-family: 'Montserrat';
+}
+
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid {
   padding: 3% 15%;
 }
 
-.navbar-brand {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.nav-item {
-
-}
-
 h1{
   font-family: 'Montserrat', sans-serif;
-  color: white;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 600;
-  padding-top: 25%;
+  padding-top: 40%;
+}
 
+/* Navigation Bar */
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 h2{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
