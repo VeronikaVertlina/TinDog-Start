@@ -1,3 +1,10 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
 
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -8,8 +15,4 @@ h1{
 
 h2{
     font-family: 'Ubuntu', sans-serif;
-}
-
-#title{
-  background-color: #ff4c68;
 }
