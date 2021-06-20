@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
 
 #title {
@@ -12,17 +13,24 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5rem;
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 600;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
 h3 {
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-size: 1.5rem;
   font-weight: 900;
+  color: #000;
 }
 
 p {
@@ -36,7 +44,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -46,7 +54,7 @@ p {
 }
 
 .nav-link {
-  font-family: 'Montserrat-Light', sans-serif;
+  font-family: 'Montserrat-Light';
   font-size: 1.2rem;
 }
 
@@ -81,4 +89,29 @@ p {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+
 }
