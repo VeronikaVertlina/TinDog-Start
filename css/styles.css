@@ -7,26 +7,26 @@ body {
   color: #fff;
 }
 
-#features {
-  background-color: #fff;
-  color: #8f8f8f;
-  text-align: center;
-}
-
 .container-fluid {
   padding: 3% 15%;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Black', sans-serif;
   font-size: 5rem;
   line-height: 1.5;
   font-weight: 600;
 }
 
 h3 {
-  font-family: 'Montserrat-bold', sans-serif;
+  color: #000;
+  font-family: 'Montserrat-Bold', sans-serif;
   font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation Bar */
@@ -63,18 +63,22 @@ h3 {
   transform: rotate(25deg);
 }
 
-/* Features Awesome   */
+/* Features section */
 
-.fas {
+#features {
+  padding: 7% 15%;
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
   color: #ef8172;
-  font-size: 3rem;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
-.fas:hover {
+.icon:hover {
   color: #ff4c68;
-}
-
-.colomn-features {
-  padding: 5% 3%;
 }
