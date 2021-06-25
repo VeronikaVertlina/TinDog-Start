@@ -126,9 +126,18 @@ p {
 /* Price section */
 
 #pricing {
+  padding: 100px;
   text-align: center;
 }
 
 .card {
   height: 100%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-button {
+  margin-bottom: auto;
 }
