@@ -164,14 +164,25 @@ p {
   background-color: #ff4c68;
   color: #fff;
   text-align: center;
-  padding: 7% 15%;
+  padding: 5% 15% 5%;
 }
 
 .cta-item {
-  font-family: 'Montserrat';
-  padding: 1.5rem;
-
+  padding: 1rem;
 }
 
 .cta-icon {
-  margin: 5px;}
+  margin: 5px;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icom {
+  margin-right: 5rem;
+}
